@@ -6,6 +6,7 @@ class ThreeDoor
     public function run()
     {
         $yes = 0;
+        $no = 0;
         for ($player = 1; $player <= $this->max_player; $player++) {
             // 答案
             $answer = rand(1, 3);
@@ -34,10 +35,13 @@ class ThreeDoor
 
             if ($answer === $player_change2) {
                 $yes += 1;
+            } elseif ($answer === $choice) {
+                $no += 1;
             }
         }
 
-        echo "換的話答對的機率:" . $yes / $this->max_player;
+        echo "換的話，中獎的機率:" . $yes / $this->max_player . "<br>";
+        echo "不換的話，中獎的機率:" . $yes / $this->max_player . "<br>";
     }
 }
 
