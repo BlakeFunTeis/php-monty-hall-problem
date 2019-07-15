@@ -41,7 +41,7 @@ class ThreeDoor
         }
 
         echo "換的話，中獎的機率:" . $yes / $this->max_player . "<br>";
-        echo "不換的話，中獎的機率:" . $yes / $this->max_player . "<br>";
+        echo "不換的話，中獎的機率:" . $no / $this->max_player . "<br>";
     }
 }
 
