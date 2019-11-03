@@ -74,7 +74,6 @@
 	換的話，中獎的機率:0.66475
 	不換的話，中獎的機率:0.33525
 
-複雜度為 **O(10000)**。
 
 ## Reference
 [使用PHP模擬蒙提霍爾問題（GitHub）](https://github.com/BlakeFunTeis/ThreeDoor-PHP/ "使用PHP模擬蒙提霍爾問題（GitHub")
